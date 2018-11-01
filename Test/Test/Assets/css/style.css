@@ -7197,15 +7197,15 @@ footer {
 }
 
 .ring-alo-phone.ring-alo-hover .ring-alo-ph-img-circle, .ring-alo-phone:hover .ring-alo-ph-img-circle {
-    background-color: #009900;
+    background-color: white;
 }
 
 .ring-alo-phone.ring-alo-green.ring-alo-hover .ring-alo-ph-img-circle, .ring-alo-phone.ring-alo-green:hover .ring-alo-ph-img-circle {
-    background-color: #75eb50;
+    background-color: white;
 }
 
 .ring-alo-phone.ring-alo-green .ring-alo-ph-img-circle {
-    background-color: #009900;
+    background-color: white;
 }
 
 @keyframes ring-alo-circle-anim {
