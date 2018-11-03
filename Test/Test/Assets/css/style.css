@@ -7079,10 +7079,10 @@ footer {
     z-index: 999;
 }
     /* left 18px là cách bên trái 18px. nếu muốn cho nút gọi sang phải thay là right */
-.fix_tel a {
+    .fix_tel a {
         text-decoration: none;
         display: block;
-}
+    }
 
 .tel {
     background: #eee;
@@ -7117,7 +7117,7 @@ footer {
 .ring-alo-ph-circle {
     animation: 1.2s ease-in-out 0s normal none infinite running ring-alo-circle-anim;
     background-color: transparent;
-    border: 2px solid rgba(0, 163, 200, 0.9);    
+    border: 2px solid rgba(0, 163, 200, 0.9);
     border-radius: 100%;
     height: 70px;
     left: 10px;
@@ -7138,7 +7138,7 @@ footer {
 }
 
 .ring-alo-phone.ring-alo-hover .ring-alo-ph-circle, .ring-alo-phone:hover .ring-alo-ph-circle {
-    border-color: rgba(0, 163, 200, 0.9);   
+    border-color: rgba(0, 163, 200, 0.9);
     opacity: 0.5;
 }
 
@@ -7197,7 +7197,7 @@ footer {
 }
 
 .ring-alo-phone.ring-alo-hover .ring-alo-ph-img-circle, .ring-alo-phone:hover .ring-alo-ph-img-circle {
-    background-color: white;
+    background-color: #009900;
 }
 
 .ring-alo-phone.ring-alo-green.ring-alo-hover .ring-alo-ph-img-circle, .ring-alo-phone.ring-alo-green:hover .ring-alo-ph-img-circle {
@@ -7278,4 +7278,36 @@ footer {
     width: 30px;
     position: relative;
     top: -1px;
+}
+
+.parentscrollbar {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scrollbar {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    float:left;
+    overflow-y: scroll;
+}
+
+#style-1::-webkit-scrollbar {
+    /*Hình nền thanh cuộn*/
+    width: 5px;
+    background-color: transparent;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    /*Thanh cuộn*/
+    background-color: rgba(0, 175, 242, 0.5);
+}
+
+#style-1::-webkit-scrollbar-track {
+    /*Phần không bị che bởi thanh cuộn*/
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: transparent;
+    opacity: 0.2;
 }
